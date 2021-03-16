@@ -40,6 +40,8 @@ uint8_t SubmitData(){
 		uint16_t ch2obuf = ch2odata[4]*256 + ch2odata[5];
 		//printf("|%#X ",ch2odata[5]);
 		sprintf(line_buf_ch2o,"%4d",ch2obuf);
+	} else {
+		sprintf(line_buf_ch2o,"----");
 	}
 }
 
