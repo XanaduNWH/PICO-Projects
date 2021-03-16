@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "irq.h": "c",
+        "lcd.h": "c",
+        "datetime.h": "c"
+    }
+}
